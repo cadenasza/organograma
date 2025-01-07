@@ -1,5 +1,5 @@
 .colaborador {
-    width: 280px;
+    width: 18rem;
 }
 
 .colaborador .cabecalho {
@@ -7,7 +7,7 @@
     border-radius: 10px 10px 0px 0px;
 }
 .colaborador img {
-    width: 100px;
+    width: 7rem;
     border-radius: 50%;
     position: relative;
     bottom: -50px;
@@ -34,4 +34,9 @@
     line-height: 22px;
     color: #212121;
     padding: 0 1rem;
+}
+
+.colaborador:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
 }
